@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Code Kata</title>
+</head>
+<body>
+    <div class="container">
+        <ui-view></ui-view>
+    </div>
+	
+    <!-- css -->
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- angular -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-messages.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.11/ngStorage.js"></script>
+
+    <!-- app -->
+    <script src="app/app.js"></script>
+    <script src="app/common/services/auth.service.js"></script>
+    <script src="app/main/index.controller.js"></script>
+    <script src="app/login/index.controller.js"></script>
+</body>
+</html>

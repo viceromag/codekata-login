@@ -1,0 +1,9 @@
+{
+    "name": "code-kata",
+    "scripts": {    
+        "start": "lite-server"
+    },
+    "dependencies": {
+        "lite-server": "*"
+    }
+}
