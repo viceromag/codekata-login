@@ -1,14 +1,12 @@
-(function () {
-    angular
-        .module('app')
-        .controller('Main.IndexController', Controller);
+angular
+    .module('app')
+    .controller('Main.IndexController', Controller);
 
-    function Controller() {
-        var vm = this;
+function Controller() {
+    var vm = this;
 
-        initController();
+    initController();
 
-        function initController() {
-        }
+    function initController() {
     }
-})();
+}
