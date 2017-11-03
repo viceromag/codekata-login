@@ -15,7 +15,7 @@
                 config.apiUrl + config.loginPath,
                 { email: email, password: password }
             )
-			.then(function(response) {
+            .then(function(response) {
                     if (response.data.token) {
                         $localStorage.currentUser = { sessionId: response.data.id, userId: response.data.userId, token: response.data.token };
                         $http.defaults.headers.common.Authorization = 'Bearer ' + response.data.token;
